@@ -32,6 +32,6 @@ def main():
 	print "DoS started"
 	for i in range(1,10000):
 		print "Attack No :",i
-	start_dos()
-if __name__=='__main':		
+		start_dos()
+if __name__=='__main__':		
 	main()
